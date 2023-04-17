@@ -1,0 +1,45 @@
+html,body {
+    height: 100%;
+}
+
+.app-form {
+    width:50%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-form>*{
+    margin-bottom: 3px;
+}
+
+.main-menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.app-table{
+    width: 60%
+}
+.search-form {
+    display: inline-flex;
+}
+
+.resident-message{
+    color:blue;
+}
+
+.room-user{
+    list-style-type: none;
+}
+
+.staff-reply{
+    color:blue;
+}
+
+.app-table-big{
+    width:80%;
+}
+
